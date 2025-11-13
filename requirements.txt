@@ -1,4 +1,4 @@
-fastapi
-uvicorn[standard]
+# fastapi
+# uvicorn[standard]
 fastmcp
 psycopg2-binary
