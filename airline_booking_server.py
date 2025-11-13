@@ -1044,6 +1044,6 @@ def get_route_options(origin_city: str, destination_city: str) -> str:
 
 if __name__ == "__main__":
     logger.info(f"Starting Airline Booking FastMCP Server (PostgreSQL)")
-    logger.info(f"Database: {DB_URL.split('@')[1].split('/')[0]}")  # Show host only
+    # logger.info(f"Database: {DB_URL.split('@')[1].split('/')[0]}")  # Show host only
     
     mcp.run(transport="http", host="0.0.0.0", port=8000)
