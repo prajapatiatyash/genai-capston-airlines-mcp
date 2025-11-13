@@ -23,7 +23,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("airline-booking-mcp")
 
 # Database configuration
-DB_URL = os.getenv("DATABASE_URL", "postgresql://neondb_owner:npg_sjg2Eti6Grbq@ep-crimson-mud-ahvccfsu-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require")
+DB_URL = os.getenv("DATABASE_URL")
 
 # Initialize FastMCP server
 mcp = FastMCP(
