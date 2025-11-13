@@ -18,6 +18,10 @@ import os
 
 from fastmcp import FastMCP
 
+from dotenv import load_dotenv
+load_dotenv() # This loads variables from the .env file
+
+
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("airline-booking-mcp")
